@@ -3,10 +3,14 @@ grunt-angular-bootstrap
 
 Bootstrap files for quick asset management in grunt for angular js
 
+##Installation
+
+Retrieve the npm dependencies by installing with: `npm install`
+
 ##Usage
 
 1. Fill in package.json with a valid name for the component you're building
-2. Run `grunt` as commandline command inside the folder with `gruntfile.coffee`
+2. Execute `grunt` to start watching for files to compile
 3. Create the `src/coffee` and `src/less` directories and start filling them
 
 ###Coffee
@@ -17,5 +21,6 @@ Include the files in the following order in your layouts:
 ```
 <script src='build/js/{pkg.name}.definitions.min.js'></script>
 <script src='build/js/{pkg.name}.modules.min.js'></script>
+</body>
 ```
 
